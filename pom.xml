@@ -129,7 +129,7 @@
             <dependency>
                 <groupId>org.joda</groupId>
                 <artifactId>joda-convert</artifactId>
-                <version>1.2</version>
+                <version>1.9.2</version>
             </dependency>
 			<dependency>
 				<groupId>net.anotheria</groupId>
