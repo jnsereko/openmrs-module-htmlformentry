@@ -30,7 +30,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.16</version>
+            <version>8.0.31</version>
             <scope>runtime</scope>
         </dependency>
 
@@ -126,8 +126,7 @@
                         <phase>generate-sources</phase>
                         <configuration>
                             <tasks>
-                                <copy file="../omod/target/htmlformentry-${htmlformentryOmodVersion}.omod"
-                                      tofile="target/${openMRSVersion}/webapp/WEB-INF/bundledModules/htmlformentry-${htmlformentryOmodVersion}.omod"/>
+                                <copy file="../omod/target/htmlformentry-${htmlformentryOmodVersion}.omod" tofile="target/${openMRSVersion}/webapp/WEB-INF/bundledModules/htmlformentry-${htmlformentryOmodVersion}.omod"/>
                             </tasks>
                         </configuration>
                         <goals>
@@ -154,8 +153,8 @@
                         <configuration>
                             <webApp>${basedir}/target/${openMRSVersion}/webapp</webApp>
                             <contextPath>/${webapp.name}</contextPath>
-                            <stopKey></stopKey>
-                            <stopPort></stopPort>
+                            <stopKey/>
+                            <stopPort/>
                             <systemProperties>
                                 <systemProperty>
                                     <name>FUNCTIONAL_TEST_MODE</name>
@@ -277,8 +276,8 @@
                         <configuration>
                             <webApp>${basedir}/target/${openMRSVersion}/webapp</webApp>
                             <contextPath>/${webapp.name}</contextPath>
-                            <stopKey></stopKey>
-                            <stopPort></stopPort>
+                            <stopKey/>
+                            <stopPort/>
                             <systemProperties>
                                 <systemProperty>
                                     <name>FUNCTIONAL_TEST_MODE</name>
@@ -393,8 +392,8 @@
                         <configuration>
                             <webApp>${basedir}/target/${openMRSVersion}/webapp</webApp>
                             <contextPath>/${webapp.name}</contextPath>
-                            <stopKey></stopKey>
-                            <stopPort></stopPort>
+                            <stopKey/>
+                            <stopPort/>
                             <systemProperties>
                                 <systemProperty>
                                     <name>FUNCTIONAL_TEST_MODE</name>
